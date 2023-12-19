@@ -1,0 +1,50 @@
+.memo-item {
+  flex: 1;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px; 
+  
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.memo-item button {
+  border: none; 
+  cursor: pointer; 
+  padding: 5px; 
+  background: gray;
+  color: #007bff; 
+}
+
+/*여기서 부터 추가*/
+.memo-item {
+  width: 23%;
+  margin: 10px 1.5%;
+  float: left;
+  margin-bottom: 3px; 
+}
+
+.memo-item:nth-child(odd) {
+  margin-right: 0;
+}
+
+.memo-item:nth-child(even) {
+  float: right;
+  margin-right: 0;
+}
+
+/* 수정 모드일 때 크기를 고정하기 위해 추가 */
+.memo-item.editing {
+  width: 23%;
+  height: 187px;
+  max-width: 100%;
+}
+
+/*2차 수정*/

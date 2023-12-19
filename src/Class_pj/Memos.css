@@ -1,0 +1,62 @@
+/* Memos.css */
+
+.Memos {
+  text-align: center;
+  margin-top: 20px;
+  
+
+  h3 {
+    margin-bottom: 10px;
+  }
+
+  .editor_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      padding: 8px;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 40px;
+      margin-right: 10px;
+      width: 30%; /* 조정 가능한 부분 */
+    }
+
+    button {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 400px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, color 0.3s ease;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+  }
+}
+
+.cnrk-button {
+  margin-left: 5px;
+  margin-right: 3px;
+  border: none;
+  height: 30px;
+} /*추가버튼*/
+
+
+
+.Memos .editor_wrapper input {
+  width: 30%; 
+  height: 25px;
+}
+
+.Memos .editor_wrapper button {
+  /* 기존 스타일 유지 */
+  padding: 15px 15px; /* 버튼의 패딩 변경. 상하 패딩을 15px, 좌우 패딩을 15px로 설정 */
+  display: flex; /* flexbox 사용 */
+  align-items: center; /* 버튼 내의 아이템을 세로 중앙에 배치 */
+  justify-content: center; /* 버튼 내의 아이템을 가로 중앙에 배치 */
+}

@@ -1,0 +1,75 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #a7a7a7;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.date {
+  font-size: 16px;
+}
+
+
+
+.Header button {
+  padding: 5px 10px;
+}
+
+.signup-form .join-button {
+  margin-right: 5px;
+  margin-left: 5px;
+  border: none;
+}
+
+.login-form .login-button {
+  margin-right: 5px;
+  margin-left: 3px;
+}
+
+.calendar-button {
+  margin-right: 0px;
+  margin-left: 12px;
+}
+
+.signup-form .Cancel-button {
+  border: none;
+  height: 27px;
+}
+
+.join-button {
+  background-color: rgb(0, 0, 0);
+}
